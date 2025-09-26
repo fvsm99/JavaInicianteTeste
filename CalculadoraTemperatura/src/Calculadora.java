@@ -57,7 +57,6 @@ public class Calculadora {
         scanner.close();
     }
 
-    // Método auxiliar para retornar o símbolo da operação
     public static String getOperador(int op) {
         switch (op) {
             case 1: return "+";
@@ -67,4 +66,5 @@ public class Calculadora {
             default: return "?";
         }
     }
+
 }
